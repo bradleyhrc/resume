@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" style="width:100%; height:100%;">
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fffdf8"/>
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"/>
   <title>Bradley's Resume</title>
-  <link rel="icon" type="image" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" href="favicon-32x32.png">
   <style>
-  iframe:focus {
-  outline: none;
-}
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f5f5f5;
+    }
 
-iframe[seamless] {
-  display: block;
-}
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
   </style>
 </head>
-  <body style="width:100%; height:100%; margin:0;">
-    <iframe src="./resume.pdf" title="resume" width="100%" height="100%"></iframe>
+<body>
+  <iframe src="./resume.pdf" title="Bradley's Resume"></iframe>
 </body>
 </html>
